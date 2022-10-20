@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textHome"
+        android:text="Bonjour "
+        android:textAlignment="center"
+        android:textColor="#039BE5"
+        android:textFontWeight="30"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <NumberPicker
+
+        android:id="@+id/numPick"
+        android:layout_width="match_parent"
+        android:layout_height="458dp" />
+
+    <Button
+        android:id="@+id/btnArticle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Article" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
